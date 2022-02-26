@@ -16,7 +16,7 @@ def task1():
         return num
 
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    return count_files(os.path.join(base_dir, 'python-test-task', 'test'))
+    return count_files(os.path.join(base_dir, 'task', 'test'))
 
 
 def task2():
@@ -39,7 +39,7 @@ def task2():
                 find_emails(element_path)
 
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    find_emails(os.path.join(base_dir, 'python-test-task', 'test'))
+    find_emails(os.path.join(base_dir, 'task', 'test'))
     return emails
 
 
